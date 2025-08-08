@@ -1,0 +1,155 @@
+<!DOCTYPE html
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NutriFit — Diet Plans Subscription</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="site-title">
+        <a href="#">NutriFit</a>
+      </div>
+
+      <div class="header-right">
+        <form class="search-form" action="#" method="get">
+          <input type="search" name="q" placeholder="Search recipes, plans..." />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- BANNER -->
+  <section class="banner">
+    <div class="banner-overlay">
+      <h1>Personalized Diet Plans. Better Health.</h1>
+      <p>Choose a plan, follow simple steps, and reach your goals with expert-backed nutrition.</p>
+      <a class="cta" href="#plans">Explore Plans</a>
+    </div>
+  </section>
+
+  <main class="container main-content">
+    <!-- WELCOME -->
+    <section class="welcome">
+      <h2>Welcome to NutriFit</h2>
+      <p>
+        NutriFit offers subscription-based diet plans tailored for weight loss,
+        muscle gain, and balanced nutrition. Each plan includes meal ideas,
+        grocery lists, and weekly progress check-ins to keep you motivated.
+      </p>
+    </section>
+
+    <!-- IMAGE GALLERY -->
+    <section class="gallery">
+      <div class="gallery-item" style="background-image:url('keto.jpg')">
+        <div class="caption">Keto Breakfast</div>
+      </div>
+      <div class="gallery-item" style="background-image:url('balanced.jpg')">
+        <div class="caption">Balanced Lunch</div>
+      </div>
+      <div class="gallery-item" style="background-image:url('protien.jpg')">
+        <div class="caption">Protein Dinner</div>
+      </div>
+      <div class="gallery-item" style="background-image:url('vegan.jpg')">
+        <div class="caption">Vegan Snack</div>
+      </div>
+    </section>
+
+    <!-- CONTENT SECTIONS -->
+    <section class="feature">
+      <div class="feature-row reverse">
+        <div class="feature-image" style="background-image:url('img4.jpg')"></div>
+        <div class="feature-text">
+          <h3>Expert Nutrition Coaches</h3>
+          <p>Work with certified nutritionists who craft plans based on your preferences and medical needs.</p>
+        </div>
+      </div>
+
+      <div class="feature-row">
+        <div class="feature-image" style="background-image:url('img5.jpg')"></div>
+        <div class="feature-text">
+          <h3>Customized Meal Plans</h3>
+          <p>Weekly meal plans with simple recipes and shopping lists that fit your lifestyle and budget.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUBSCRIPTION / PLANS -->
+    <section id="plans" class="plans">
+      <h2>Subscription Plans</h2>
+      <div class="plans-grid">
+        <article class="plan-card">
+          <h4>Starter</h4>
+          <p class="price">₹299 / month</p>
+          <ul>
+            <li>Basic weekly plan</li>
+            <li>Standard recipes</li>
+            <li>Email support</li>
+          </ul>
+          <button class="subscribe">Subscribe</button>
+        </article>
+
+        <article class="plan-card recommended">
+          <h4>Pro</h4>
+          <p class="price">₹599 / month</p>
+          <ul>
+            <li>Personalized plan</li>
+            <li>Nutrition coach check-in</li>
+            <li>Custom grocery lists</li>
+          </ul>
+          <button class="subscribe">Subscribe</button>
+        </article>
+
+        <article class="plan-card">
+          <h4>Premium</h4>
+          <p class="price">₹999 / month</p>
+          <ul>
+            <li>1:1 Coaching</li>
+            <li>Customized macros</li>
+            <li>Priority support</li>
+          </ul>
+          <button class="subscribe">Subscribe</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- ENROLL FORM -->
+    <section class="enroll">
+      <h2>Get Started</h2>
+      <form class="enroll-form" action="#" method="post">
+        <div class="form-row">
+          <label for="name">Full name</label>
+          <input id="name" name="name" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" required />
+        </div>
+        <div class="form-row">
+          <label for="goal">Goal</label>
+          <select id="goal" name="goal">
+            <option>Weight loss</option>
+            <option>Muscle gain</option>
+            <option>Maintain & healthy eating</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <button type="submit" class="subscribe">Start Free Trial</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 NutriFit. All rights reserved.</p>
+      <p class="small">Designed for web design exercise</p>
+    </div>
+  </footer>
+</body>
+</html>
